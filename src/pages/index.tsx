@@ -1,14 +1,14 @@
-import Image from "next/image";
+
 import Link from "next/link";
-import { useSession } from "next-auth/react";
+
 
 export default function Home() {
-  const { data: session } = useSession();
+  
 
   return (
     
     <div className="flex flex-col justify-center h-[calc(100vh-130px)] ">
-      {session ? (
+      
         <div className="">
           <Link href={"/dashboard"}>
             <div className="flex flex-col justify-center items-center ">
@@ -20,7 +20,7 @@ export default function Home() {
             </div>
           </Link>
         </div>
-      ) : null}
+    
       <div className="flex flex-col items-center">
         <h1>COOL STACKS (BETA)</h1>
         <h1 className="flex-grow font-bold text-2xl text-center ">
