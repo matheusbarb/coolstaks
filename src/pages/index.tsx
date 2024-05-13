@@ -11,7 +11,7 @@ export default function Home() {
       {session ? (
         <div className="">
           <Link href={"/dashboard"}>
-            <div className="flex flex-col justify-center items-center mb-20 ">
+            <div className="flex flex-col justify-center items-center ">
               <section className="bg-black rounded-md ">
                 <span className="bg-[#C4A1FF] block p-2 -translate-x-1 -translate-y-1 border-black border-2 rounded-md text-xl hover:-translate-x-2 hover:-translate-y-2 transition-all">
                   Meu Painel
@@ -22,13 +22,7 @@ export default function Home() {
         </div>
       ) : null}
       <div className="flex flex-col items-center">
-        <Image
-          className="mb-20"
-          src="/assets/logo.jpg"
-          alt="logo"
-          width={500}
-          height={500}
-        />
+        <h1>COOL STACKS (BETA)</h1>
         <h1 className="flex-grow font-bold text-2xl text-center ">
           Sistema feito para você organizar
           <span className="text-[#C4A1FF]"> suas tarefas :) </span>
