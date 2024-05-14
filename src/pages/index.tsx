@@ -22,13 +22,22 @@ export default function Home() {
         </div>
       ) : null}
       <div className="flex flex-col items-center">
-        <h1>COOL STACKS (BETA)</h1>
-        <h1 className="flex-grow font-bold text-2xl text-center ">
+      <Image
+        src="/assets/logo.png"
+        alt="Logo"
+        width={500}
+        height={300}
+        priority
+      />
+       <h1 className="flex-grow font-bold text-2xl text-center ">
           Sistema feito para você organizar
           <span className="text-[#C4A1FF]"> suas tarefas :) </span>
         </h1>
-      </div>
     </div>
+        
+       
+      </div>
+    
     
   );
 }

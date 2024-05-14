@@ -38,6 +38,7 @@ export function Header() {
             </span>
           </button>
         ) : (
+          
           <button
             className="lg:mr-20 md:mr-20 mr-2 bg-black rounded-md"
             onClick={() => signIn("google")}
