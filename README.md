@@ -8,7 +8,6 @@
 **Task Module**
 - Login / Sign-up
 - Create Task
-- Edit Task
 - Delete Task
 - Mark as Completed
 - Show assigned Task in **RealTime**
